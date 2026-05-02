@@ -1,0 +1,12 @@
+@FigmaMcpServer.Api_HostAddress = http://localhost:5073
+@FileKey = your_figma_file_key
+
+GET {{FigmaMcpServer.Api_HostAddress}}/api/figma/parse?fileKey={{FileKey}}
+Accept: application/json
+
+###
+
+GET {{FigmaMcpServer.Api_HostAddress}}/api/figma/parse?fileKey={{FileKey}}&pageName=Auth&frameName=Login&refreshCache=true
+Accept: application/json
+
+###

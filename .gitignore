@@ -1,0 +1,39 @@
+# Build outputs
+**/bin/
+**/obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code workspace settings (local)
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+
+# Rider / ReSharper
+.idea/
+*.sln.iml
+
+# OS files
+.DS_Store
+
+# Logs
+*.log
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Generated semantic outputs
+figma-semantic-*.json
+logistic.json
+
+# Test and coverage artifacts
+TestResults/
+coverage/
+*.coverage
+*.trx
